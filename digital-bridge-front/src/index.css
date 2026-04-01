@@ -1,0 +1,75 @@
+/* استدعاء خط Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* تنسيقات إضافية لصفحة الزوار */
+.border-cyan-2 { border: 2px solid #00e5ff !important; }
+.btn-dark-custom { background-color: #1e2124 !important; color: #00e5ff !important; transition: 0.3s; }
+.btn-dark-custom:hover { background-color: #2b2d31 !important; color: #00e5ff !important; }
+body {
+  background-color: #1e2124; /* لون الخلفية الداكن المطابق للصور */
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* فئات (Classes) مساعدة للون السماوي المميز في تصميمك */
+.text-cyan { color: #00e5ff !important; }
+.bg-cyan { background-color: #00e5ff !important; color: #1e2124 !important; }
+.border-cyan { border: 1px solid #00e5ff !important; }
+
+/* تصميم زر مخصص */
+.btn-cyan {
+  background-color: #00e5ff;
+  color: #1e2124;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-cyan:hover {
+  background-color: #00b8cc;
+  color: #1e2124;
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+}
+
+/* لون اللوحات (Cards) */
+.bg-dark-panel {
+  background-color: #2b2d31;
+}
+
+
+/* تنسيقات الشريط الجانبي (Sidebar) */
+.sidebar-link {
+  color: #adb5bd;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.sidebar-link:hover {
+  background-color: #383a40;
+  color: #fff;
+}
+.sidebar-link.active {
+  background-color: #383a40;
+  color: #fff;
+  border-left: 4px solid #00e5ff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* تنسيقات بطاقات المحفظة (Vault Cards) */
+.vault-card {
+  background-color: #f1f3f5;
+  color: #212529;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+.vault-card:hover {
+  transform: translateY(-2px);
+}
